@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         listView = findViewById(R.id.listView)
 
 
-        // Xử lý ẩn/hiện CalendarView
         btnShow.setOnClickListener {
             tvError.visibility = View.GONE  // Ẩn TextView lỗi
             val inputText = edtNumber.text.toString()
